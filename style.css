@@ -1,52 +1,52 @@
-body{
+body {
     color: black;
     margin: 0;
     padding: 40px;
-    max-width: ;
+    max-width: 1400px;
 }
 
-h1{
+h1 {
     font-size: 25px;
     margin: 20px 0;
     padding: 0;
 }
 
-h2{
+h2 {
     font-size: 15px;
     font-weight: bold;
     margin: 0;
 }
 
-.fas{
+.fas {
     color: #0065fc;
 }
 
-.grey-star{
+.grey-star {
     color: #d4d5d6;
 }
 
 /* Style du header */
 
-.div-header{
+.div-header {
     display: flex;
     justify-content: space-between;
 }
 
-header img{
+header img {
     width: 100px;
 }
 
-.menu{
+.menu {
     margin-top: 16px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
-    color:black;
+    color: black;
     padding: 32px;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding-top: 25px;
@@ -54,17 +54,17 @@ header img{
 
 /* Section de recherche */
 
-.formulaire{
+.formulaire {
     display: flex;
 }
 
-.icon-formulaire{
+.icon-formulaire {
     padding: 15px;
-    background-color:  #d9d9d9;
+    background-color: #d9d9d9;
     border-radius: 10px 0 0 10px;
 }
 
-.champ-recherche{
+.champ-recherche {
     font-weight: bold;
     border: none;
     border-top: 2px solid #F2F2F2;
@@ -73,19 +73,19 @@ header img{
     padding-left: 10px;
 }
 
-.champ-recherche + button{
-        background-color: #0065FC;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 0 10px 10px 0;
-        border: none;
+.champ-recherche+button {
+    background-color: #0065FC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0;
+    border: none;
 }
 
-form{
+form {
     margin: 10px 0;
 }
 
-.conteneur-filtre-recherche{
+.conteneur-filtre-recherche {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -94,14 +94,14 @@ form{
     font-size: 15px;
 }
 
-.filtre-recherche{
+.filtre-recherche {
     display: flex;
     align-items: center;
     border: 1px solid #d9d9d9;
     border-radius: 30px;
 }
 
-.filtre-recherche-icon{
+.filtre-recherche-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,21 +113,21 @@ form{
     margin-left: -2px;
 }
 
-.filtre-recherche-nom{
+.filtre-recherche-nom {
     margin: 0 10px;
 }
 
-.resultat-recherche{
+.resultat-recherche {
     display: flex;
     align-items: center;
 }
 
-.resultat-recherche-icon{
+.resultat-recherche-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
-    border:1px solid #a19d9d;
+    border: 1px solid #a19d9d;
     border-radius: 100%;
     width: 15px;
     height: 15px;
@@ -138,55 +138,54 @@ form{
 
 /* Section de logements */
 
-.section-logement{
+.section-logement {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
-.conteneur-carte-logement{
+.conteneur-carte-logement {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 66%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 25px  25px 0 25px;
-    box-sizing:border-box;
+    padding: 25px 25px 0 25px;
+    box-sizing: border-box;
 }
 
-.conteneur-carte-logement-div{
+.conteneur-carte-logement-div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.carte{
-    width: 30%;
-    margin-right: 3.3%;  
+.carte {
+    width: 31%;
 }
 
-.carte-logement{
+.carte-logement {
     padding: 4px;
     border-radius: 20px;
     background-color: white;
     margin-bottom: 30px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.carte-logement a{
+.carte-logement a {
     display: block;
     text-decoration: none;
     color: black;
 }
 
-
-.imgage-carte{
+.imgage-carte {
     position: relative;
     padding-top: 50%;
 }
 
-.imgage-carte img{
+.imgage-carte img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -198,64 +197,127 @@ form{
     border-radius: 20px 20px 0 0;
 }
 
-.titre-conteneur-carte-logement{
+.titre-conteneur-carte-logement {
     width: 100%;
 }
 
-.descrition-carte{
+.descrition-carte {
     margin: 10px;
 }
 
-.descrition-carte p{
+.descrition-carte p {
     margin: 0 0 10px 0;
 }
 
-.prix-en-euro{
+.prix-en-euro {
     font-weight: bold;
 }
 
-.lien-afficher-plus{
-    
+.lien-afficher-plus {
+
     display: block;
     font-size: 19px;
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-bottom:40px ;
+    margin-bottom: 40px;
 }
 
 
-.conteneur-carte-logement-populaire{
+.conteneur-carte-logement-populaire {
     display: flex;
     width: 31%;
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 20px  20px 0 20px;
-    box-sizing:border-box;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
 }
 
-.carte-logement-populaire a{
+.carte-logement-populaire a {
     display: flex;
 }
 
-.conteneur-imgage-carte-populaire{
+.conteneur-imgage-carte-populaire {
     width: 40%;
 }
 
-.imgage-carte-populaire{
+.imgage-carte-populaire {
     padding-top: 108%;
 }
 
-.imgage-carte-populaire img{
+.imgage-carte-populaire img {
     border-radius: 20px 0 0 20px;
 }
 
-.descrition-carte-populaire{
+.descrition-carte-populaire {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 60%;
     margin-left: 9px;
     margin-right: 0px;
+}
+
+/* section des Activités */
+
+.section-activites {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.conteneur-carte-activites {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.article-carte-activites{
+    border-radius: 20px;
+    box-shadow: -1px 4px 3px #F2F2F2;
+}
+
+.carte-activites a,
+.div-carte-activites a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.carte-activites {
+    width: 22.5%;
+}
+
+.div-carte-activites {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22.5%;
+}
+
+.imgage-carte-activites-grande {
+    padding-top: 150%;
+}
+
+.imgage-carte-activites-petit-1 {
+    padding-top: 70%;
+}
+
+.imgage-carte-activites-petit-2 {
+    padding-top: 45%;
+}
+
+.imgage-carte-activites-petit-3 {
+    padding-top: 55%;
+}
+
+.imgage-carte-activites-petit-4 {
+    padding-top: 60%;
+}
+
+.descrition-carte-activites p{
+    margin: 0;
+    padding: 10px 0 10px 10px;
+    font-weight: 900;
 }
