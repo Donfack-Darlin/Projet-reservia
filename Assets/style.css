@@ -425,3 +425,105 @@ footer {
     text-decoration: none;
     color: black;
 }
+
+/*--------------------------------------------------------------------*/
+/* Media query */
+/*--------------------------------------------------------------------*/
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    section,
+    header {
+        margin: 0 20px;
+    }
+
+    .section-logement {
+        flex-wrap: wrap-reverse;
+        gap: 20px;
+    }
+
+    .conteneur-carte-logement {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .lien-afficher-plus {
+        margin-bottom: 20px;
+    }
+
+    .conteneur-carte-logement-populaire {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .titre-conteneur-carte-logement-populaire {
+        width: 100%;
+    }
+
+    .carte-logement-populaire {
+        width: 31%;
+        margin-bottom: 20px;
+    }
+
+    .carte-logement-populaire a {
+        flex-direction: column;
+    }
+
+    .conteneur-imgage-carte-populaire {
+        width: 100%;
+    }
+
+    .imgage-carte-populaire {
+        padding-top: 50%;
+    }
+
+    .imgage-carte-populaire img {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .descrition-carte-populaire {
+        width: 100%;
+    }
+
+    .section-activites {
+        padding:0 20px 30px 20px;
+    }
+
+    .conteneur-carte-activites {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .div-carte-activites,
+    .carte-activites {
+        width: 47%;
+    }
+
+    .imgage-carte-activites-grande {
+        padding-top: 80%;
+    }
+
+    .imgage-carte-activites-petit-1 {
+        padding-top: 35%;
+    }
+
+    .imgage-carte-activites-petit-2 {
+        padding-top: 25%;
+    }
+
+    .imgage-carte-activites-petit-3 {
+        padding-top: 35%;
+    }
+
+    .imgage-carte-activites-petit-4 {
+        padding-top: 25%;
+    }
+
+    .div-footer {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
